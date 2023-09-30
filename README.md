@@ -16,15 +16,14 @@ This is a Home Security Project. Designed as a low-budget option but also upgrad
 9. DC 5V Power Supply (Raspberry Pi Model B+)
 10. Dupont Cables **MM-MM and FF-FF** (1 MM-MM and 3 FF-FF Used)
 
+<br>
 
 
 
 
 
 
-
-
-
+</br>
 
 **More In-depth Explanation (Only Key Components)**
 
