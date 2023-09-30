@@ -4,6 +4,7 @@ This is a Home Security Project. Designed as a low-budget option but also upgrad
 
 # Components/Hardware
 **Listed Version**
+
 1. Raspberry Pi Model B+ (521MB)
 2. Two 5V Rely Switch (only needed/used one)
 3. 3.5 inch LCD Screen
@@ -16,8 +17,23 @@ This is a Home Security Project. Designed as a low-budget option but also upgrad
 10. Dupont Cables **MM-MM and FF-FF** (1 MM-MM and 3 FF-FF Used)
 
 
-The project runs on a **Raspberry Pi Model B+ (512MB)**. Due to the lack of power, the project was adjusted for effiency and effective power usage to prevent overheating. The average temperature of the system sat around **40-42 Cº** being overclocked at **high** by RaspberryPi's own overclock tool. The load on the CPU while running stayed at a bare minimum below **5%**.
 
-RaspberryPi connected to a 3.5inch LCD screen and 5V Rely Switch connected to solenoid and power supply of solenoid.
+**More In-depth Explanation (Only Key Components)**
+
+**Raspberry Pi Model B+ (512MB)**
+The project runs on a **Raspberry Pi Model B+ (512MB)**. Due to the lack of power, the project was adjusted for effiency and effective power usage to prevent overheating. The average temperature of the system sat around **40-42 Cº** being overclocked at **high** by RaspberryPi's own overclock tool. The load on the CPU while running stayed at a bare minimum below **5%**. The system should still be deemed weak for such a project as adding functionality would be really difficult as it would add aggressive power load. To touch, the Raspberry Pi didn't feel like it was overheating.
+
+**Two 5V Rely Switch**
+The project only needed one rely switch however couldn't find a separate one. Runs on 5V and only one of the rely switch was used. The temperature of the rely was relatively low and never reached high temperatures. And when the rely switch would be recieving power it would make a sound of the LED light turning off indicating power is no longer being provided to the rely switch. The rely switched proved to be effective and useful while reaching the goal of minimizing heat and power drawn.
+
+**3.5 inch LCD Screen**
+This project used a 3.5 inch LCD Screen for the keypad. The 3.5 inch LCD screen was a great size and the digital buttons were able to be spaced properly and large enough to prevent misclicking. A good startchoice and the connection with the pins were strong and rigid.
+
+**Fielect DV 12V Pull Type Solenoid Electromagnet**
+
+
+# How it works (Written Version)
+
+
 
 
