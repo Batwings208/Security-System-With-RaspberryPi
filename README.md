@@ -13,7 +13,7 @@ This is a Home Security Project. Designed as a low-budget option but also upgrad
 7. Tenda W311m 150 Mbps Mini Wireless USB Adapter
 8. GPIO Expansion Board
 9. DC 5V Power Supply (Raspberry Pi Model B+)
-10. Dupont Cables **MM-MM, FF-FF, MM-FF** incase (around 5 of each)
+10. Dupont Cables **MM-MM and FF-FF** (1 MM-MM and 3 FF-FF Used)
 
 
 The project runs on a **Raspberry Pi Model B+ (512MB)**. Due to the lack of power, the project was adjusted for effiency and effective power usage to prevent overheating. The average temperature of the system sat around **40-42 Cº** being overclocked at **high** by RaspberryPi's own overclock tool. The load on the CPU while running stayed at a bare minimum below **5%**.
