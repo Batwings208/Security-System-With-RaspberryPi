@@ -18,6 +18,14 @@ This is a Home Security Project. Designed as a low-budget option but also upgrad
 
 
 
+
+
+
+
+
+
+
+
 **More In-depth Explanation (Only Key Components)**
 
 **Raspberry Pi Model B+ (512MB)**
