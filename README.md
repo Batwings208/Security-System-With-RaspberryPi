@@ -20,8 +20,6 @@ This is a Home Security Project. Designed as a low-budget option but also upgrad
 
 **More In-depth Explanation (Only Key Components)**
 
-<br></br>
-
 **Raspberry Pi Model B+ (512MB)**
 The project runs on a **Raspberry Pi Model B+ (512MB)**. Due to the lack of power, the project was adjusted for effiency and effective power usage to prevent overheating. The average temperature of the system sat around **40-42 Cº** being overclocked at **high** by RaspberryPi's own overclock tool. The load on the CPU while running stayed at a bare minimum below **5%**. The system should still be deemed weak for such a project as adding functionality would be really difficult as it would add aggressive power load. To touch, the Raspberry Pi didn't feel like it was overheating.
 
