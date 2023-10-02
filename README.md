@@ -57,10 +57,10 @@ The **black wire** is connected to the **Ground(GND) port**.
 And the **red wire** is connected to the **IN2 port**. On your rely if it is one rely, it would most likely have just be **IN or IN1**. I highly again advise against buying a rely switch with two rely's together.
 
 
-# How the code works? (Written Version)
+# How the code works?
 
 **I have a video in-depth as the code is very long and typing would make this boring and a discouraging project. I will keep the video as short as possible but well explained. I'll also try and add comments to the code for further guidance.**
 
-
+**I apologize if you need a written version but I feel that writing it out woulsn't make sense and may cause complications with the understanding of the code. However if you understand classes and the use of functions, you should understand the code properly. I have however, added some documentation here about all the functions so you understand at least get some information on what the program needs to use/do but if you plan on rebuilding such a project, it is highly suggested that you watch the video. If you want to just use parts of my code, I would just suggest reading the documentation or just watching parts of the video where you are taking the code from. Just to understand. If my code is complicated or my documentation is difficult to understand, feel free to make a pull request and I'll review and approve adjustments deemed appropriate.**
 
 
