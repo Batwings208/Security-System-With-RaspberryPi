@@ -40,7 +40,21 @@ This is a 5 volt exposed solenoid. The mechanism words in a pull type form. And 
 
 # How the hardware work and wire configurations?
 
-So focusing first on the raspberry pi, I have a GPIO expansion board as I needed extra pins since I am also connection a 3.5 inch screen. I have 3 wires which are connected to the rb Pi (I suggest using different colors but its up to you), a **white wire** connected to the **3.3V DC power pin** which is **pin #1**. A **black wire** connected to the **Ground pin(GND)** which is **pin #6**. And a **white wire** connected to **P18 or GPIO 18** which is **pin #12**. **Remember**, you may choose different GPIO pins as long as they are the same except for the white wire as its an output pin so you can chose another like P21 or even P8, its up to you. From these wires, they are connected to the rely switch. I have two switches, which I do not recommend, so my configurations may differ. The **white wire** is connected to the **VCC port**. The **black wire** is connected to the **Ground(GND) port**. And the **red wire** is connected to the **IN2 port**. On your rely if it is one rely, it would most likely have just be **IN or IN1**. I highly again advise against buying a rely switch with two rely's together.
+So focusing first on the raspberry pi, I have a GPIO expansion board as I needed extra pins since I am also connection a 3.5 inch screen. I have 3 wires which are connected to the rb Pi (I suggest using different colors but its up to you). 
+
+A **white wire** connected to the **3.3V DC power pin** which is **pin #1**. 
+
+A **black wire** connected to the **Ground pin(GND)** which is **pin #6**. 
+
+And a **red wire** connected to **P18 or GPIO 18** which is **pin #12**. **Remember**, you may choose different GPIO pins as long as they are the same except for the white wire as its an output pin so you can chose another like P21 or even P8, its up to you. 
+
+From these wires, they are connected to the rely switch. I have two switches, which I do not recommend, so my configurations may differ. 
+
+The **white wire** is connected to the **VCC port**. 
+
+The **black wire** is connected to the **Ground(GND) port**. 
+
+And the **red wire** is connected to the **IN2 port**. On your rely if it is one rely, it would most likely have just be **IN or IN1**. I highly again advise against buying a rely switch with two rely's together.
 
 
 # How the code works? (Written Version)
