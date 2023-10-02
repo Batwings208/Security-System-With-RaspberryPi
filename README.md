@@ -10,7 +10,7 @@ This is a Home Security Project. Designed as a low-budget option but also upgrad
 3. 3.5 inch LCD Screen
 4. DC 12V Power Supply (Solenoid)
 5. Female Connector (Used for CCTV cameras, etc.)
-6. Fielect DV 12V Pull Type Solenoid Electromagnet (open-framed)
+6. Fielect DC 12V Pull Type Solenoid Electromagnet (open-framed)
 7. Tenda W311m 150 Mbps Mini Wireless USB Adapter
 8. GPIO Expansion Board
 9. DC 5V Power Supply (Raspberry Pi Model B+)
@@ -30,14 +30,22 @@ The project only needed one rely switch however couldn't find a separate one. Ru
 
 **3.5 inch LCD Screen**
 
-This project used a 3.5 inch LCD Screen for the keypad. The 3.5 inch LCD screen was a great size and the digital buttons were able to be spaced properly and large enough to prevent misclicking. A good startchoice and the connection with the pins were strong and rigid.
+This project used a 3.5 inch LCD Screen for the keypad. The 3.5 inch LCD screen was a great size and the digital buttons were able to be spaced properly and large enough to prevent misclicking. A good start choice and the connection with the pins were strong and rigid.
 
-**Fielect DV 12V Pull Type Solenoid Electromagnet**
+**Fielect DC 12V Pull Type Solenoid Electromagnet**
+
+This is a 5 volt exposed solenoid. The mechanism words in a pull type form. And uses electromagnets. However this can only pull in the solenoid. When deactivated there is spring on top which would push it out as the solenoid is no longer receiving power and can not longer activate the electromagnets. Its wise to mention that the use of electromagnets make the process seem almost instant. There is though the sound of metal hitting against itself when the solenoid deactivates. And the solenoid has a tendency to jump out after deactivation due to the sudden loss of pull. This could be prevented by adding a wood block to prevent the metal piece from falling out but be in reach for the solenoid's electromagnets to pull it up. Overall, the solenoid is pretty solid, a good choice but would highly recommend upgrading if this is for locking main doors. If you are planning such and need guidance, I'm here to help. 
 
 
 
+# How the hardware work and wire configurations?
 
-# How it works (Written Version)
+So focusing first on the raspberry pi, I have a GPIO expansion board as I needed extra pins since I am also connection a 3.5 inch screen. I have 3 wires which are connected to the rb Pi (I suggest using different colors but its up to you), a **white wire** connected to the **3.3V DC power pin** which is **pin #1**. A **black wire** connected to the **Ground pin(GND)** which is **pin #6**. And a **white wire** connected to **P18 or GPIO 18** which is **pin #12**. **Remember**, you may choose different GPIO pins as long as they are the same except for the white wire as its an output pin so you can chose another like P21 or even P8, its up to you. From these wires, they are connected to the rely switch. I have two switches, which I do not recommend, so my configurations may differ. The **white wire** is connected to the **VCC port**. The **black wire** is connected to the **Ground(GND) port**. And the **red wire** is connected to the **IN2 port**. On your rely if it is one rely, it would most likely have just be **IN or IN1**. I highly again advise against buying a rely switch with two rely's together.
+
+
+# How the code works? (Written Version)
+
+**I have a video in-depth as the code is very long and typing would make this boring and a discouraging project. I will keep the video as short as possible but well explained. I'll also try and add comments to the code for further guidance.**
 
 
 
