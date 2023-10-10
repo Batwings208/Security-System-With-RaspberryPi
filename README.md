@@ -63,5 +63,5 @@ And the **red wire** is connected to the **IN2 port**. On your rely if it is one
 
 # Functions/Modules
 
-## \_\_init\_\_(self) 
+<h1>\_\_init\_\_(self)</h1>
 
