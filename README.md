@@ -63,5 +63,50 @@ And the **red wire** is connected to the **IN2 port**. On your rely if it is one
 
 # Functions/Modules
 
-<h3>__init__(self)</h3>
+<h3>create_widgets(self)</h3>
+<br></br>
+
+
+<h3>on_keypress(self, value)</h3>
+<br></br>
+
+
+<h3>disable_keypad_button(self)</h3>
+<br></br>
+
+
+<h3>enable_keypad_button(self)</h3>
+<br></br>
+
+
+<h3>update_entry(self)</h3>
+<br></br>
+
+
+<h3>show_success_button(self)</h3>
+<br></br>
+
+
+<h3>reset_input(self)</h3>
+<br></br>
+
+
+<h3>toggle_fullscreen(self)</h3>
+<br></br>
+
+
+<h3>end_fullscreen(self)</h3>
+<br></br>
+
+
+<h3>change_password(self)</h3>
+<br></br>
+
+
+<h3>lock_keypad(self)</h3>
+<br></br>
+
+
+<h3>email_send(self, subject, body)</h3>
+<br></br>
 
