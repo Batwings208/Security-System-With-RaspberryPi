@@ -142,6 +142,6 @@ Of course! My intital plan was to use a database with this project as I was real
 
 
 
-
+<br></br>
 I hope you guys liked this project and this code. I really spent a lot of time on it and it does make me shed a few tears over this project as I had a blast making it. Even though on some occasions I wanted to either quit or smash my head through my computer. I'll now probably find another project to work on or upgrade it with more tech for people who want a more powerful verson. Till then, see you all!
 
