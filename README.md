@@ -140,8 +140,6 @@ Use many GPIO pin you want! There is no instructions on which one to use, its al
 Of course! My intital plan was to use a database with this project as I was really excited about it but I changed my focus towards something more lighter and won't require too much management. As this project was meant to be low budget but more importantly not too techy and complicated. However if you are planning to add a database to your's some of my ideas for which you could use a database for would be like recording entries, successful entries, incorrect entries, date of entry, cooldown activation, keeping record of email address instead of directly on code and more. These are just my suggestions and if you need my help do hesitate to ask me, I would love to help! And just as a small detail, I use this in my house but for my room door as I always wanted to have some cool spy tech things and this furfills my long-lived wishes 😂.
 
 
-
-
 <br></br>
 I hope you guys liked this project and this code. I really spent a lot of time on it and it does make me shed a few tears over this project as I had a blast making it. Even though on some occasions I wanted to either quit or smash my head through my computer. I'll now probably find another project to work on or upgrade it with more tech for people who want a more powerful verson. Till then, see you all!
 
