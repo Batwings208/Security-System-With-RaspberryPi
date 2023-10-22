@@ -1,3 +1,7 @@
+#Creator of Code: Zeeshan Mughal
+#Created: July 24, 2023 
+
+
 import tkinter as tk
 import tkinter.font
 from random import randint
