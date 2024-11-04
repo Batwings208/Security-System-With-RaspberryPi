@@ -137,7 +137,7 @@ Use as many GPIO pins as you want! There are no instructions on which ones to us
 <br></br>
 
 <h3>Could you use a database with this?</h3>
-Of course! My initial plan was to use a database with this project as I was really excited about it, but I changed my focus towards something lighter and less requiring in terms of management. Since this project was meant to be low-budget and, more importantly, not too technical and complicated. However, if you are planning to add a database to yours, some of my ideas for which you could use a database would be recording entries, successful entries, incorrect entries, date of entry, cooldown activation, keeping a record of email addresses instead of directly in the code, and more. These are just my suggestions, and if you need my help, don't hesitate to ask me; I would love to help! And just as a small detail, I use this in my house, but for my room door, as I've always wanted to have some cool spy tech things, and this fulfills my long-lived wishes 😂.
+Of course! My initial plan was to use a database with this project as I was really excited about it, but I changed my focus towards something lighter and less requiring in terms of management. Since this project was meant to be low-budget and, more importantly, not too technical and complicated. However, if you are planning to add a database to yours, some of my ideas for which you could use a database would be recording entries, successful entries, incorrect entries, date of entry, cooldown activation, keeping a record of email addresses instead of directly in the code, and more. These are just my suggestions, and if you need my help, don't hesitate to ask me; I would love to help!
 
 
 <br></br>
